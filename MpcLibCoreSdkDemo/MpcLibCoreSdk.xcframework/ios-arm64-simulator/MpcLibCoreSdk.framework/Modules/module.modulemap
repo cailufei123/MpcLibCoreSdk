@@ -1,0 +1,6 @@
+framework module MpcLibCoreSdk {
+  umbrella header "MpcLibCoreSdk.h"
+  export *
+
+  module * { export * }
+}
