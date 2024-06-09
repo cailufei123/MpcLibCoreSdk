@@ -14,7 +14,7 @@
 		F5BEBF502C1551F50013CBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BEBF4F2C1551F50013CBF2 /* Assets.xcassets */; };
 		F5BEBF532C1551F50013CBF2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5BEBF522C1551F50013CBF2 /* Base */; };
 		F5BEBF562C1551F50013CBF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BEBF552C1551F50013CBF2 /* main.m */; };
-		F5BEBF6C2C155B8B0013CBF2 /* MpcLibCoreSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEBF6B2C155B8B0013CBF2 /* MpcLibCoreSdk.xcframework */; };
+		F5BEBF822C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEBF812C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,7 +43,7 @@
 		F5BEBF522C1551F50013CBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5BEBF542C1551F50013CBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5BEBF552C1551F50013CBF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F5BEBF6B2C155B8B0013CBF2 /* MpcLibCoreSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MpcLibCoreSdk.xcframework; sourceTree = "<group>"; };
+		F5BEBF812C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MpcLibCoreSdk.xcframework; path = Frameworks/MpcLibCoreSdk.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5BEBF6C2C155B8B0013CBF2 /* MpcLibCoreSdk.xcframework in Frameworks */,
+				F5BEBF822C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 		F5BEBF372C1551F30013CBF2 = {
 			isa = PBXGroup;
 			children = (
-				F5BEBF6B2C155B8B0013CBF2 /* MpcLibCoreSdk.xcframework */,
+				F5BEBF812C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework */,
 				F5BEBF422C1551F30013CBF2 /* MpcLibCoreSdkDemo */,
 				F5BEBF412C1551F30013CBF2 /* Products */,
 			);
