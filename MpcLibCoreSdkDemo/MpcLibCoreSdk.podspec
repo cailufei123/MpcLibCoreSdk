@@ -22,4 +22,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
  #s.vendored_frameworks = 'Frameworks/*.xcframework'
  s.ios.vendored_frameworks  = 'Frameworks/*.xcframework'
+   s.source_files  = "Frameworks/*.xcframework/**/*"
+
 end
