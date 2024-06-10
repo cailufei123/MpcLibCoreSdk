@@ -20,5 +20,5 @@ s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
   # Flutter.framework does not contain a i386 slice.
    # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
    # s.vendored_frameworks  = 'Frameworks/MpcLibCoreSdk.xcframework/ios-arm64_x86_64-simulator/MpcLibCoreSdk.framework'
-      s.ios.vendored_frameworks =  "MpcLibCoreSdk.xcframework"
+      s.vendored_frameworks =  "Frameworks/MpcLibCoreSdk.xcframework"
 end
