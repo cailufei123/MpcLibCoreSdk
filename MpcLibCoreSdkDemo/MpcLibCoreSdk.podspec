@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
- s.source           = { :git => 'https://github.com/cailufei123/MpcLibCoreSdk.git',:tag => s.version.to_s }
+ s.source           = { :git => 'https://github.com/cailufei123/MpcLibCoreSdk/tree/main/MpcLibCoreSdkDemo',:tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
 
